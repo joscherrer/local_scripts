@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -n "$1" ]; then
+    cookiecutter https://github.com/joscherrer/ansible-role-skeleton.git --no-input role_name="$1"
+    echo "Created role $1"
+else
+    echo "Plese provide a role name"
+fi
