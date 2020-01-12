@@ -6,8 +6,7 @@ This README explains how my custom scripts are meant to be used
 
 ## Requirements
 
-- molecule
-- ansible
+- cookiecutter
 
 ## Usage
 ```
